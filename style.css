@@ -238,12 +238,13 @@ section {
 }
 
 .home-img img{
-    position: absolute;
+    position: relative;
     bottom: 0;
-    right: 40px;
     pointer-events: none;
     max-width: 480px;
     max-height: 100vh;
+    left: 760px;
+    top: 285px;
 }
 
 span {
