@@ -226,11 +226,8 @@ section {
 }
 
 .home .profession-container .overlay {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 0;
-    height: 0;
+    position: relative;
+    left: 1100px;
     border-top: 50vh solid var(--main-color);
     border-right: 384px solid var(--main-color);
     border-bottom: 50vh solid var(--main-color);
@@ -238,7 +235,7 @@ section {
 }
 
 .home-img img{
-    position: relative;
+    position:relative;
     bottom: 0;
     pointer-events: none;
     max-width: 480px;
@@ -327,6 +324,10 @@ span {
     text-align: justify;
 }
 
-img {
-    border-radius: 20px;
+.services-box img{
+    position:relative;
+    bottom: 0;
+    pointer-events: none;
+    max-width: 480px;
+    max-height: 140px;
 }
